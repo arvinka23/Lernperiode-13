@@ -1,0 +1,9 @@
+[package]
+name = "extract_zip_files"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+zip = { version = "0.6", default-features = false, features = ["deflate"] }
+walkdir = "2.4"
+chrono = "0.4"
